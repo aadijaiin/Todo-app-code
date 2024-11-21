@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux'
 import './App.css'
 import { addTodo } from './features/slices/todoSlice'
 import Todos from './components/Todos'
-import './index.css'
+// import './index.css'
 
 function App() {
   const [input, setInput] = useState('')
